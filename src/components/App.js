@@ -11,9 +11,11 @@ const App = () => {
     <div>
       <form>
          <label>Enter your name:</label>
+         <br />
         <input onChange={onChangeText}/>
       </form>
-        {inputValue && <p>{`Hello ${inputValue}!`} </p>}
+      
+        {inputValue && <p>{`Hello ${inputValue}!`}</p>}
     </div>
    
   )
